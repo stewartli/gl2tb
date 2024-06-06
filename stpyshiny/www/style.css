@@ -1,0 +1,20 @@
+:root {
+    /* normal css is different from shiny app */
+    --bslib-spacer: 0rem;
+    --bslib-mb-spacer: var(--bslib-spacer, 1rem);
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    font-size:small;
+    /* opacity: 0.3; */
+    /* filter: blur(5px); */
+}
+
+.bslib-card .card-header, .bslib-card .card-footer, .card-body{
+    font-size: 0.73rem;
+}
+
+.btn{
+    font-size: 0.73rem;
+} 
